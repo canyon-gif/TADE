@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Models & checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Data & results
+*.csv
+*.tsv
+*.xlsx
+*.zip
+results/
+save/
+data/
+datasets/
+
+# Logs & env
+*.log
+.env
+
+# System
+.DS_Store
