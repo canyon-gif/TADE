@@ -1,6 +1,5 @@
 # TADE: A Knowledge-Guided and Data-Refined Framework for Druggable Gene Discovery and Drug Repurposing in Type 2 Diabetes
 
-[![Code Ocean](https://codeocean.com/codeocean-badge.svg)](https://codeocean.com/capsule/3776997/tree)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 TADE is a unified deep learning framework designed to solve two sequential tasks in therapeutic discovery for Type 2 Diabetes (T2D): **the discovery of druggable genes** and **the prediction of gene–drug interactions (GDI)** for drug repurposing. 
