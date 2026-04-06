@@ -63,10 +63,10 @@ pip install einops==0.8.2 \
 ## 📂 Project Structure
 
 - `code/`: Contains the core implementation and pipelines.
-    - `models/`: Architecture definitions for TADE-Gene and TADE-GDI.
     - `train_val_test_draw/`: Jupyter Notebooks for cross-validation, external testing, and figure generation.
+    - `train_val_test_draw/models/`: Architecture definitions for TADE-Gene and TADE-GDI.
 - `datasets/`: Processed feature datasets for T2D (available via Code Ocean).
-- `save/`: Pre-trained model weights and scalers for reproduction(available via Code Ocean).
+- `save/`: Pre-trained model weights and scalers for reproduction (available via Code Ocean).
 
 ---
 
