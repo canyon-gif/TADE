@@ -1,4 +1,4 @@
-# TADE: A Knowledge-Guided and Data-Refined Framework for Druggable Gene Discovery and Drug Repurposing in Type 2 Diabetes
+# Computational Knowledge–Omics Integration Reveals Druggable Genes and Therapies in Type 2 Diabetes
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
