@@ -1,26 +1,40 @@
 # Python
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
 
-# Models & checkpoints
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Environments and secrets
+.env
+.venv/
+env/
+venv/
+
+# Logs
+*.log
+
+# Large data and model artifacts
+data/
+data_source/
+datasets/
+save/
 *.pt
 *.pth
 *.ckpt
+*.pkl
+*.joblib
 
-# Data & results
-*.csv
-*.tsv
-*.xlsx
-*.zip
+# Large generated results
 results/
-save/
-data/
-datasets/
 
-# Logs & env
-*.log
-.env
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.7z
 
-# System
+# OS files
 .DS_Store
+

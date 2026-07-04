@@ -1,0 +1,4 @@
+rapid_evidence_grade,evidence_role,n
+A,known_direct_target_control_without_current_PDB_row,1
+C_or_U,gene_level_or_drug_class_plausible_high_score,20
+U,antidiabetic_drug_high_score_needs_manual_gene_pair_review,9

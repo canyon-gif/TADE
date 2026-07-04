@@ -1,0 +1,3 @@
+analysis,shift_column,n,positive_shift_n,positive_shift_fraction,negative_shift_n,mean_shift,mean_abs_shift,substantial_abs_gt_0_1_n,substantial_up_n,substantial_up_fraction
+genome_wide,delta,21044,19888,0.945067477665843,1156,0.016453732233711542,0.021145087864438077,808,666,0.8242574257425742
+temporal,delta,64,57,0.890625,7,0.06832899904734376,0.09609944054734373,16,13,0.8125

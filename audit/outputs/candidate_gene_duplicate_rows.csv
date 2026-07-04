@@ -1,0 +1,5 @@
+Gene,Score,open_targets_score,chembl_evidence,literature_evidence,expression_evidence,is_membrane_protein,is_secreted_protein,has_small_molecule_binder,has_druggable_pocket,max_clinical_trial_phase
+PYGM,0.7613922,0.0014783194187388,No data,0.012158615952232422,No data,No data,No data,1,0,No data
+PYGM,0.7613922,0.0014783194187388,No data,0.012158615952232422,No data,No data,No data,1,0,No data
+NAPA,0.74466294,0.0022174791281082,No data,0.01823792392834863,No data,0,0,0,0,No data
+NAPA,0.74466294,0.0022174791281082,No data,0.01823792392834863,No data,0,0,0,0,No data

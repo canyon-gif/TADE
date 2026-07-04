@@ -1,0 +1,10 @@
+block,count
+snp_pvalue_mean,57
+snp_pvalue_var,57
+snp_cnt,57
+snp_cadd_mean,57
+snp_cadd_var,57
+3mer_or_nucleotide_context,32
+methylation,2
+expression,2
+bert_desc_vector,768

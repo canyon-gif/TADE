@@ -1,0 +1,28 @@
+{
+  "run_date": "2026-07-02",
+  "data_scope": "Top-280 TADE candidate genes with Open Targets score available, matching Fig. 6b-like candidate coordinate table.",
+  "fig6b_coordinate_source": "submitted_supplementary_tables/TADE_NC_SupplementaryTable3.xlsx",
+  "genome_wide_modality_score_source": "submitted_supplementary_tables/TADE_NC_SupplementaryTable1.xlsx",
+  "open_targets_source": "fixed_inputs/data_source/open_genes/open_genes.tsv",
+  "candidate_ranking_source": "results/candidate_genes/genes.csv",
+  "high_tade_rule": "full_score >= 90th percentile within candidate top-280 table",
+  "high_tade_cutoff": 0.97549242,
+  "low_opentargets_rule": "Open Targets T2D association score <= 0.05; bottom-25 cutoff also recorded",
+  "low_opentargets_cutoff": 0.05,
+  "low_opentargets_bottom25_cutoff": 0.01587322231635155,
+  "quadrant_n_using_low_ot_0_05": 6,
+  "quadrant_n_using_bottom25_low_ot": 4,
+  "delta_absolute_cutoff": 0.1,
+  "delta_top_quartile_within_quadrant": 0.9635696895,
+  "text_score_global_top10_cutoff": 0.029899476600000002,
+  "text_score_candidate_top25_cutoff": 0.69918358,
+  "omics_score_global_top25_cutoff": 0.07826818699999999,
+  "omics_score_quadrant_median_cutoff": 0.5416529,
+  "classification_priority": [
+    "both-supported if text_score is candidate-table top25 and delta >= 0.10 or quadrant top quartile",
+    "omics-driven if text_score is not high, delta is high, and omics_score exceeds genome top25 plus quadrant median",
+    "semantic-driven if text_score is high and delta is not high",
+    "uncertain/mixed otherwise"
+  ],
+  "omics_score_effective_high_cutoff": 0.5416529
+}
